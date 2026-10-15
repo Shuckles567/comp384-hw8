@@ -1,0 +1,113 @@
+/* Color Palette
+#78503a - Muted Mahogany Brown
+#899480 - Muted Olive Green
+#c4bd8b - Khaki
+#8faab3 - Light Blue-Gray
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+nav {
+    background-color: #c4bd8b;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    background-color:#78503a;
+    color: #c4bd8b;
+    padding: 10px;
+    text-decoration: none;
+}
+
+body {
+    background-color: #899480; 
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+a {
+    color: #1703f4;
+    text-decoration: none;
+}
+a:hover {
+    color:#800020;
+    text-decoration: underline;
+}
+/* Header & Footer 
+------------------------------------*/
+h1, h2, h3 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    background-color: #c4bd8b;
+    text-align: center;
+}
+
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+.work{
+    background-color: #8faab3;
+}
+
+
+/* Education
+------------------------------------*/
+
+.education{
+    background-color: #78503a;
+}
