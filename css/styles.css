@@ -20,7 +20,10 @@ nav {
     padding: 10px;
     text-align: center;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: 100;
 }
 
 nav a {
@@ -96,6 +99,12 @@ footer {
 .contact-info a{
     padding: 10px;
     display: inline-block;
+}
+
+.top {
+    background: linear-gradient(rgba(137, 148, 128, 0.45), rgba(137, 148, 128, 0.45)), url('../images/WhiteOaks_MB_0.jpg.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 60px;
 }
 
 /* Work Experience
