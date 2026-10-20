@@ -9,6 +9,7 @@
 ------------------------------------*/
 html {
     box-sizing: border-box;
+    scroll-padding-top: 80px;
 }
 
 *, *:before, *:after {
@@ -104,7 +105,7 @@ footer {
 .top {
     background: linear-gradient(rgba(137, 148, 128, 0.45), rgba(137, 148, 128, 0.45)), url('../images/WhiteOaks_MB_0.jpg.jpg') no-repeat center center;
     background-size: cover;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 /* Work Experience
